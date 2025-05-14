@@ -50,4 +50,4 @@ Here's what it does:
 
 ## License
 
-The scripts and documents in this project are released under the MIT License
+The scripts and documents in this project are released under the [MIT License](https://github.com/J-Nobull/First-Pipeline/tree/main?tab=MIT-1-ov-file)
