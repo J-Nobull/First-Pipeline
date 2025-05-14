@@ -47,3 +47,7 @@ Here's what it does:
 
 - [Heroku Python Support Docs](https://devcenter.heroku.com/articles/python-support)
 - [GitHub Actions for Python](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python)
+
+## License
+
+The scripts and documents in this project are released under the MIT License
