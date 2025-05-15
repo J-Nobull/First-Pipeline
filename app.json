@@ -1,0 +1,34 @@
+{
+  "name": "Noble ANA 680 App",
+  "repository": "https://github.com/J-Nobull/Noble_ANA-680_2-1",
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "pytest"
+      }
+    },
+    "review": {
+      "env": {
+        "DEBUG": "True"
+      }
+    },
+    "staging": {
+      "addons": [],
+      "env": {
+        "DEBUG": "False"
+      },
+      "scripts": {
+        "postdeploy": "echo 'Staging postdeploy complete'"
+      }
+    },
+    "production": {
+      "addons": [],
+      "env": {
+        "DEBUG": "False"
+      },
+      "scripts": {
+        "postdeploy": "echo 'Production postdeploy complete'"
+      }
+    }
+  }
+}
